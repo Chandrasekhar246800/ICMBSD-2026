@@ -75,11 +75,23 @@ export default function Leadership() {
           <div className="max-w-2xl mx-auto">
             <div className="bg-gradient-to-br from-orange-50 via-red-50 to-pink-100 rounded-xl p-6 shadow-md hover:shadow-xl transition-all border border-orange-200 hover:-translate-y-1 text-center">
               <div className="flex flex-col items-center gap-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-orange-500 via-red-500 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
-                  <span className="text-2xl text-white font-bold">
-                    {LEADERSHIP.organizingSecretary.name.split(' ')[1].charAt(0)}
-                  </span>
-                </div>
+                {LEADERSHIP.organizingSecretary.image ? (
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden shadow-lg ring-4 ring-orange-200">
+                    <Image
+                      src={LEADERSHIP.organizingSecretary.image}
+                      alt={LEADERSHIP.organizingSecretary.name}
+                      fill
+                      className="object-cover"
+                      sizes="128px"
+                    />
+                  </div>
+                ) : (
+                  <div className="w-16 h-16 bg-gradient-to-br from-orange-500 via-red-500 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
+                    <span className="text-2xl text-white font-bold">
+                      {LEADERSHIP.organizingSecretary.name.split(' ')[1].charAt(0)}
+                    </span>
+                  </div>
+                )}
                 <div>
                   <h4 className="text-lg font-bold text-gray-900 mb-1">
                     {LEADERSHIP.organizingSecretary.name}
@@ -108,11 +120,23 @@ export default function Leadership() {
                 className="bg-gradient-to-br from-gray-50 to-purple-50 rounded-xl p-6 shadow-md hover:shadow-xl transition-all border border-purple-200 hover:-translate-y-1 text-center"
               >
                 <div className="flex flex-col items-center gap-4">
-                  <div className="w-16 h-16 bg-gradient-to-br from-purple-500 via-indigo-500 to-blue-500 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
-                    <span className="text-2xl text-white font-bold">
-                      {secretary.name.split(' ')[1].charAt(0)}
-                    </span>
-                  </div>
+                  {secretary.image ? (
+                    <div className="w-32 h-32 relative rounded-full overflow-hidden shadow-lg ring-4 ring-purple-200">
+                      <Image
+                        src={secretary.image}
+                        alt={secretary.name}
+                        fill
+                        className="object-cover"
+                        sizes="128px"
+                      />
+                    </div>
+                  ) : (
+                    <div className="w-16 h-16 bg-gradient-to-br from-purple-500 via-indigo-500 to-blue-500 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
+                      <span className="text-2xl text-white font-bold">
+                        {secretary.name.split(' ')[1].charAt(0)}
+                      </span>
+                    </div>
+                  )}
                   <div>
                     <h4 className="text-lg font-bold text-gray-900 mb-1">
                       {secretary.name}

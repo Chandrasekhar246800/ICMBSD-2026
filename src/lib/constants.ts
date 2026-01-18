@@ -46,7 +46,7 @@ export const SPEAKERS = {
       designation: "Director",
       institution: "Research Institute of Modern Organic Agriculture (RIMOA), King Monkut's Institute of Technology Ladkrabang (KMITL)",
       country: "Thailand",
-      image: "/speakers/Internationall speakers/Kasem Soytong.jpeg",
+      image: "/speakers/Internationall speakers/Kasem Soytong.png",
     },
     {
       id: 2,
@@ -54,7 +54,7 @@ export const SPEAKERS = {
       designation: "Associate Professor",
       institution: "Institute of Biochemistry and Microbiology, Universidad Austral de Chile",
       country: "Chile",
-      image: "/speakers/Internationall speakers/Sergio Javier Leiva Poveda.jpeg",
+      image: "/speakers/Internationall speakers/Sergio.jpeg",
     },
     {
       id: 3,
@@ -62,7 +62,7 @@ export const SPEAKERS = {
       designation: "Associate Professor",
       institution: "Department of Animal Science, Botswana University of Agriculture and Natural Resources",
       country: "Botswana",
-      image: "/speakers/Internationall speakers/John Cassius Moreki.jpeg",
+      image: "/speakers/Internationall speakers/john.jpeg",
     },
     {
       id: 4,
@@ -70,7 +70,7 @@ export const SPEAKERS = {
       designation: "Lecturer & Head, Research and International Relations",
       institution: "RIMOA - King Monkut's Institute of Technology Ladkrabang (KMITL)",
       country: "Thailand",
-      image: "/speakers/Internationall speakers/Jiaojiao Song.jpeg",
+      image: "/speakers/Internationall speakers/jiaojiaosong.png",
     },
     {
       id: 5,
@@ -78,7 +78,7 @@ export const SPEAKERS = {
       designation: "G-EAU (Gestion de l'eau, acteurs, usages)",
       institution: "IRD Institut de recherche pour le développment, Université de Montpellier",
       country: "France",
-      image: "/speakers/National Speakers/Julien Jean Malard-Adam.jpeg",
+      image: "/speakers/Internationall speakers/Julien.jpeg",
     },
   ],
   national: [
@@ -88,7 +88,7 @@ export const SPEAKERS = {
       designation: "Associate Professor and Head",
       institution: "Department of Agriculture Microbiology, Agricultural College and Research Institute, Madurai",
       country: "India",
-      image: "/speakers/National Speakers/Sabarinathan.jpeg",
+      image: "/speakers/National Speakers/Sabarinathan-new.jpeg",
     },
     {
       id: 7,
@@ -96,7 +96,7 @@ export const SPEAKERS = {
       designation: "Associate Professor",
       institution: "Department of Soil Science and Agricultural Chemistry, VOC Agricultural College and Research Institute (TNAU), Killikulam",
       country: "India",
-      image: "/speakers/National Speakers/Gomathy.jpeg",
+      image: "/speakers/National Speakers/Gomathy-new.jpeg",
     },
   ],
 };
@@ -173,12 +173,14 @@ export const LEADERSHIP = {
     name: "Dr. V. Gopikrishnan",
     designation: "Assistant Professor (Research)",
     department: "Centre for Drug Discovery and Development, Sathyabama",
+    image: "/gopi krishna.jpg",
   },
   coOrganizingSecretaries: [
     {
       name: "Dr. M. Radhakrishnan",
       designation: "Professor (Research)",
       department: "CDDD – Sathyabama",
+      image: "/radhakrishnan.jpg",
     },
     {
       name: "Dr. S. Bharathi",
@@ -189,6 +191,7 @@ export const LEADERSHIP = {
       name: "Dr. Rameshkumar",
       designation: "Dean",
       department: "School of Bio and Chemical Engineering",
+      image: "/ramesh.jpg",
     },
   ],
 };
