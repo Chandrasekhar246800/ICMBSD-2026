@@ -169,6 +169,11 @@ export const LEADERSHIP = {
   patron: {
     name: "Dr. Bharathi. B",
     designation: "Director (Innovation)",
+    image: undefined,
+  } as {
+    name: string;
+    designation: string;
+    image?: string;
   },
   convener: {
     name: "Dr. M. Radhakrishnan",
