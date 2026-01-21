@@ -103,7 +103,7 @@ export default function Registration() {
                 <span className="text-2xl mr-3 mt-0.5">ℹ️</span>
                 <div>
                   <p className="text-sm text-cyan-800 font-medium">
-                    Online mode is permitted exclusively for international and other state participants (Oral presentations only)
+                    Online mode is permitted exclusively for international and other state participants
                   </p>
                 </div>
               </div>
@@ -122,7 +122,9 @@ export default function Registration() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </Link>
-              <p className="mt-4 text-sm text-gray-600 font-medium">\n                Registration deadline: 3 February 2026\n              </p>
+              <p className="mt-4 text-sm text-gray-600 font-medium">
+                Registration deadline: 3 February 2026
+              </p>
             </div>
           </div>
         </div>
