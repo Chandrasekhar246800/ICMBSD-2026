@@ -180,7 +180,6 @@ export const LEADERSHIP = {
       name: "Dr. M. Radhakrishnan",
       designation: "Professor (Research)",
       department: "CDDD – Sathyabama",
-      image: "/radhakrishnan.jpg",
     },
     {
       name: "Dr. S. Bharathi",
@@ -191,7 +190,6 @@ export const LEADERSHIP = {
       name: "Dr. Rameshkumar",
       designation: "Dean",
       department: "School of Bio and Chemical Engineering",
-      image: "/ramesh.jpg",
     },
   ],
 };
