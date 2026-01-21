@@ -180,16 +180,24 @@ export const LEADERSHIP = {
       name: "Dr. M. Radhakrishnan",
       designation: "Professor (Research)",
       department: "CDDD – Sathyabama",
+      image: undefined,
     },
     {
       name: "Dr. S. Bharathi",
       designation: "Assistant Professor (Research)",
       department: "CMOAR - Sathyabama",
+      image: undefined,
     },
     {
       name: "Dr. Rameshkumar",
       designation: "Dean",
       department: "School of Bio and Chemical Engineering",
+      image: undefined,
     },
-  ],
+  ] as Array<{
+    name: string;
+    designation: string;
+    department: string;
+    image?: string;
+  }>,
 };
