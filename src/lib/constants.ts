@@ -149,13 +149,15 @@ export const ABOUT = {
 };
 
 export const THEMES = [
-  "Microbial Biocontrol and Biofertilizers",
-  "Nano-based natural products and its applications",
+  "Microbial Bioprospecting",
+  "Microbial Bioremediation",
+  "Microbial Biocontrol & Biofertilizers",
+  "Nano-based Natural Products",
   "Polar Microbiology",
   "Plant–Microbe–Nano Interactions",
-  "Gut Microbiome and Probiotics",
+  "Gut Microbiome & Probiotics",
   "Sensor-based Precision Agriculture",
-  "Integrated Smart and Sustainable Farming Systems",
+  "Integrated Smart & Sustainable Farming Systems",
 ];
 
 export const LEADERSHIP = {
@@ -165,34 +167,29 @@ export const LEADERSHIP = {
     image: "/chancellor.jpeg",
   },
   patron: {
-    name: "Dr. B. Bharathi",
+    name: "Dr. Bharathi. B",
     designation: "Director (Innovation)",
-    image: "/Bharathi.jpeg",
+  },
+  convener: {
+    name: "Dr. M. Radhakrishnan",
+    designation: "Professor (Research)",
+    department: "Centre for Drug Discovery and Development",
   },
   organizingSecretary: {
     name: "Dr. V. Gopikrishnan",
     designation: "Assistant Professor (Research)",
-    department: "Centre for Drug Discovery and Development, Sathyabama",
-    image: "/gopi krishna.jpg",
+    department: "Centre for Drug Discovery and Development",
   },
   coOrganizingSecretaries: [
     {
-      name: "Dr. M. Radhakrishnan",
-      designation: "Professor (Research)",
-      department: "CDDD – Sathyabama",
-      image: undefined,
-    },
-    {
       name: "Dr. S. Bharathi",
       designation: "Assistant Professor (Research)",
-      department: "CMOAR - Sathyabama",
-      image: undefined,
+      department: "Centre for Modern Organic Agriculture Research",
     },
     {
-      name: "Dr. Rameshkumar",
-      designation: "Dean",
-      department: "School of Bio and Chemical Engineering",
-      image: undefined,
+      name: "Dr. V. Ramesh Kumar",
+      designation: "Head, Department of Biotechnology",
+      department: "",
     },
   ] as Array<{
     name: string;
@@ -200,4 +197,34 @@ export const LEADERSHIP = {
     department: string;
     image?: string;
   }>,
+  organizingMembers: [
+    {
+      name: "Dr. Krupakar Parthasarathy",
+      designation: "Associate Professor (Research)",
+    },
+    {
+      name: "Dr. T. Rajasekar",
+      designation: "Assistant Professor (Research)",
+    },
+    {
+      name: "Dr. R. Sam Ebenezer",
+      designation: "Assistant Professor (Research)",
+    },
+    {
+      name: "Dr. S. Vignesh",
+      designation: "Assistant Professor (Research)",
+    },
+  ] as Array<{
+    name: string;
+    designation: string;
+  }>,
+  supportTeam: {
+    description: "Faculty, Scientific Staffs, Research Scholars",
+    organizations: [
+      "Centre for Drug Discovery and Development (CDDD)",
+      "Centre for Modern Organic Agriculture Research (CMOAR)",
+      "School of Bio and Chemical Engineering",
+      "Sathyabama Institute of Science and Technology",
+    ],
+  },
 };

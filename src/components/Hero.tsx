@@ -18,8 +18,8 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-8">
         {/* Rotating Cube Logo */}
-        <div className="mb-4">
-          <div className="flex justify-center mb-3">
+        <div className="mb-6">
+          <div className="flex justify-center mb-6">
             <div className="cube-container">
               <div className="cube">
                 <div className="cube-face front">
@@ -43,16 +43,6 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <h2 className="text-xl sm:text-2xl font-bold text-white drop-shadow-lg mb-4">
-            Sathyabama Institute of Science and Technology
-          </h2>
-        </div>
-
-        {/* Year Badge */}
-        <div className="inline-block mb-4">
-          <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-white px-6 py-2 rounded-full text-sm font-semibold tracking-wide shadow-2xl animate-pulse">
-            {CONFERENCE.year}
-          </span>
         </div>
 
         {/* Conference Title */}
@@ -62,6 +52,18 @@ export default function Hero() {
         <p className="text-lg sm:text-xl text-white/95 mb-6 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
           {CONFERENCE.name}
         </p>
+
+        {/* Institute Name */}
+        <h2 className="text-xl sm:text-2xl font-bold text-white drop-shadow-lg mb-4">
+          Sathyabama Institute of Science and Technology
+        </h2>
+
+        {/* Year Badge */}
+        <div className="inline-block mb-6">
+          <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-white px-6 py-2 rounded-full text-sm font-semibold tracking-wide shadow-2xl animate-pulse">
+            {CONFERENCE.year}
+          </span>
+        </div>
 
         {/* Date and Venue */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 text-white">
